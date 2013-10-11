@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8D7C29146B5C8D00069E0D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C8D7C28146B5C8D00069E0D /* main.cpp */; };
+		3C8D7C2B146B5C8D00069E0D /* EXR_Image.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 3C8D7C2A146B5C8D00069E0D /* EXR_Image.1 */; };
+		3C8D7C40146C743700069E0D /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D7C3F146C743700069E0D /* libz.1.2.5.dylib */; };
+		3C8D7C41146C745F00069E0D /* libIex.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D7C36146C66F100069E0D /* libIex.6.dylib */; };
+		3C8D7C42146C746E00069E0D /* libIlmThread.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D7C34146C66E300069E0D /* libIlmThread.6.dylib */; };
+		3C8D7C43146C748800069E0D /* libHalf.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D7C38146C670800069E0D /* libHalf.6.dylib */; };
+		3C8D7C44146C749600069E0D /* libImath.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D7C3A146C672100069E0D /* libImath.6.dylib */; };
+		3C8D7C45146C74AB00069E0D /* libIlmImf.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C8D7C3C146C673300069E0D /* libIlmImf.6.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3C8D7C22146B5C8D00069E0D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				3C8D7C2B146B5C8D00069E0D /* EXR_Image.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3C8D7C24146B5C8D00069E0D /* EXR_Image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EXR_Image; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8D7C28146B5C8D00069E0D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3C8D7C2A146B5C8D00069E0D /* EXR_Image.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = EXR_Image.1; sourceTree = "<group>"; };
+		3C8D7C32146BAC0D00069E0D /* libz.1.2.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.3.dylib; path = Platforms/iPhoneOS.platform/DeviceSupport/4.2/Symbols/usr/lib/libz.1.2.3.dylib; sourceTree = DEVELOPER_DIR; };
+		3C8D7C34146C66E300069E0D /* libIlmThread.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIlmThread.6.dylib; path = ../../../../opt/local/lib/libIlmThread.6.dylib; sourceTree = "<group>"; };
+		3C8D7C36146C66F100069E0D /* libIex.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIex.6.dylib; path = ../../../../opt/local/lib/libIex.6.dylib; sourceTree = "<group>"; };
+		3C8D7C38146C670800069E0D /* libHalf.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.6.dylib; path = ../../../../opt/local/lib/libHalf.6.dylib; sourceTree = "<group>"; };
+		3C8D7C3A146C672100069E0D /* libImath.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libImath.6.dylib; path = ../../../../opt/local/lib/libImath.6.dylib; sourceTree = "<group>"; };
+		3C8D7C3C146C673300069E0D /* libIlmImf.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libIlmImf.6.dylib; path = ../../../../opt/local/lib/libIlmImf.6.dylib; sourceTree = "<group>"; };
+		3C8D7C3F146C743700069E0D /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		3C8D7C47146C774200069E0D /* tree.exr */ = {isa = PBXFileReference; lastKnownFileType = file; path = tree.exr; sourceTree = "<group>"; };
+		3C8D7C4A146D187800069E0D /* gaussian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gaussian.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8D7C21146B5C8D00069E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8D7C45146C74AB00069E0D /* libIlmImf.6.dylib in Frameworks */,
+				3C8D7C44146C749600069E0D /* libImath.6.dylib in Frameworks */,
+				3C8D7C43146C748800069E0D /* libHalf.6.dylib in Frameworks */,
+				3C8D7C42146C746E00069E0D /* libIlmThread.6.dylib in Frameworks */,
+				3C8D7C41146C745F00069E0D /* libIex.6.dylib in Frameworks */,
+				3C8D7C40146C743700069E0D /* libz.1.2.5.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8D7C19146B5C8D00069E0D = {
+			isa = PBXGroup;
+			children = (
+				3C8D7C3F146C743700069E0D /* libz.1.2.5.dylib */,
+				3C8D7C3C146C673300069E0D /* libIlmImf.6.dylib */,
+				3C8D7C3A146C672100069E0D /* libImath.6.dylib */,
+				3C8D7C38146C670800069E0D /* libHalf.6.dylib */,
+				3C8D7C36146C66F100069E0D /* libIex.6.dylib */,
+				3C8D7C34146C66E300069E0D /* libIlmThread.6.dylib */,
+				3C8D7C32146BAC0D00069E0D /* libz.1.2.3.dylib */,
+				3C8D7C27146B5C8D00069E0D /* EXR_Image */,
+				3C8D7C25146B5C8D00069E0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8D7C25146B5C8D00069E0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8D7C24146B5C8D00069E0D /* EXR_Image */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8D7C27146B5C8D00069E0D /* EXR_Image */ = {
+			isa = PBXGroup;
+			children = (
+				3C8D7C28146B5C8D00069E0D /* main.cpp */,
+				3C8D7C47146C774200069E0D /* tree.exr */,
+				3C8D7C4A146D187800069E0D /* gaussian.h */,
+				3C8D7C2A146B5C8D00069E0D /* EXR_Image.1 */,
+			);
+			path = EXR_Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8D7C23146B5C8D00069E0D /* EXR_Image */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8D7C2E146B5C8D00069E0D /* Build configuration list for PBXNativeTarget "EXR_Image" */;
+			buildPhases = (
+				3C8D7C20146B5C8D00069E0D /* Sources */,
+				3C8D7C21146B5C8D00069E0D /* Frameworks */,
+				3C8D7C22146B5C8D00069E0D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EXR_Image;
+			productName = EXR_Image;
+			productReference = 3C8D7C24146B5C8D00069E0D /* EXR_Image */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8D7C1B146B5C8D00069E0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "6005 185th CT NE";
+			};
+			buildConfigurationList = 3C8D7C1E146B5C8D00069E0D /* Build configuration list for PBXProject "EXR_Image" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C8D7C19146B5C8D00069E0D;
+			productRefGroup = 3C8D7C25146B5C8D00069E0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8D7C23146B5C8D00069E0D /* EXR_Image */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8D7C20146B5C8D00069E0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8D7C29146B5C8D00069E0D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3C8D7C2C146B5C8D00069E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3C8D7C2D146B5C8D00069E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3C8D7C2F146B5C8D00069E0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = "/opt/local/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/opt/local/lib/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		3C8D7C30146B5C8D00069E0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				HEADER_SEARCH_PATHS = "/opt/local/include/**";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/opt/local/lib/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8D7C1E146B5C8D00069E0D /* Build configuration list for PBXProject "EXR_Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8D7C2C146B5C8D00069E0D /* Debug */,
+				3C8D7C2D146B5C8D00069E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8D7C2E146B5C8D00069E0D /* Build configuration list for PBXNativeTarget "EXR_Image" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8D7C2F146B5C8D00069E0D /* Debug */,
+				3C8D7C30146B5C8D00069E0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8D7C1B146B5C8D00069E0D /* Project object */;
+}
